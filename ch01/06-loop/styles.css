@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* =============== Content 1 ======================== */
+.content1{
+    margin: 20px auto;
+    width: 600px;
+    border: 1px solid #cfc;
+    padding: 10px;
+    background: url("images/notebook_background.jpg") no-repeat top center;
+    min-height: 200px;
+}
+
+.content1 h1{
+    text-align: center;
+    color: red;
+}
+
+.content1 ul{
+    margin: 23px 0 0 100px;
+    list-style: decimal inside;
+}
+
+.content1 ul li{
+    margin-top: 6px;
+}
+
+/* =============== Content 2 ======================== */
+.content2{
+    margin: 20px auto;
+    width: 800px;
+    border: 1px solid #cfc;
+    padding: 10px;
+}
+
+.content2 h1{
+    text-align: center;
+    color: red;
+}
+
+.content2 ul{
+    margin: 23px;
+}
+
+.content2 ul li{
+    margin-top: 6px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.content2 ul li a{
+    display: block;
+    width: 210px;
+    height: 188px;
+}
+
+.content2 div.result{
+    margin-left: 320px;
+}
+
+/* =============== Content 3 ======================== */
+.content3{
+    margin: 20px auto;
+    width: 300px;
+    border: 1px solid #cfc;
+    padding: 10px;
+}
+
+.content3 h1{
+    text-align: center;
+    color: red;
+}
+
+.content3 div.image{
+    margin-top: 20px 0;
+    text-align: center;
+}
+
+.content3 div.image img{
+    margin-top: 10px 0;
+}
+
+.content3 div.image a{
+    display: inline-block;
+    background-color: antiquewhite;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+
+.content3 div.image a:hover{
+    color: brown;
+}
+
+/* =============== Content 4 ======================== */
+.content4{
+    margin: 20px auto;
+    width: 500px;
+    border: 1px solid #cfc;
+    padding: 10px;
+}
+
+.content4 h1{
+    text-align: center;
+    color: red;
+}
+
+.content4 .question p{
+    text-align: center;
+}
+
+.content4 .question p:last-child{
+    text-align: right;
+    font-style: italic;
+}
+
+.content4 .answer p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content4 .answer ul{
+    list-style: none;
+    text-align: center;
+}
+
+/* =============== Content 5 ======================== */
+.clr{
+    clear: both;
+}
+
+.content5{
+    margin: 20px auto;
+    width: 500px;
+    border: 1px solid #cfc;
+    padding: 10px;
+    min-height: 200px;
+}
+
+.content5 h1{
+    text-align: center;
+    color: red;
+}
+
+.content5 .demoChangeMoney{
+    text-align: center;
+    line-height: 35px;
+}
+
+.content5 .demoChangeMoney img{
+    float: left;
+}
+
+.content5 input[type="text"]{
+    padding: 3px 5px;
+}
+
+.content5 input[type="submit"]{
+    padding: 3px 5px;
+}
+
+.content5 .result{
+    margin-top: 10px;
+}
+
+.content5 .totalPrice{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.content5 .totalPrice strong{
+    color: red;
+    font-weight: bold;
+}
